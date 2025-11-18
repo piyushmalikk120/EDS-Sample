@@ -1,0 +1,118 @@
+/* Base styles for the piyush block */
+.piyush {
+  margin: 20px 0;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: var(--background-color);
+}
+
+.piyush.piyush-processed {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Base text styling */
+.piyush .piyush-text {
+  padding: 8px;
+  margin: 4px 0;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+/* Text length based styles */
+.piyush .piyush-short-text {
+  background-color: #e8f5e8;
+  border-left: 4px solid #4caf50;
+  font-weight: 500;
+}
+
+.piyush .piyush-medium-text {
+  background-color: #fff3e0;
+  border-left: 4px solid #ff9800;
+  font-style: italic;
+}
+
+.piyush .piyush-long-text {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Special content styles */
+.piyush .piyush-has-numbers {
+  font-family: 'Courier New', monospace;
+  background-color: #f5f5f5;
+  border: 1px dashed #666;
+}
+
+.piyush .piyush-uppercase {
+  color: #d32f2f;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.piyush .piyush-has-special {
+  background-color: #fce4ec;
+  border: 2px dotted #e91e63;
+  color: #880e4f;
+}
+
+/* Word count based styles */
+.piyush .piyush-single-word {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.piyush .piyush-few-words {
+  background-color: #e0f2f1;
+  color: #00695c;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.piyush .piyush-many-words {
+  background-color: #fff8e1;
+  color: #e65100;
+  border-left: 5px solid #ff6f00;
+  padding-left: 15px;
+}
+
+/* Hover effects */
+.piyush .piyush-text:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .piyush {
+    margin: 10px 0;
+    padding: 12px;
+  }
+  
+  .piyush .piyush-text {
+    padding: 6px;
+    margin: 3px 0;
+  }
+  
+  .piyush .piyush-single-word {
+    font-size: 1.1em;
+  }
+}
+
+/* Print styles */
+@media print {
+  .piyush {
+    border: 1px solid #000;
+    box-shadow: none;
+  }
+  
+  .piyush .piyush-text:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
