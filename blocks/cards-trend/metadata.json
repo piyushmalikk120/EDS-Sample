@@ -1,0 +1,14 @@
+{
+  "variantName": "cards-trend",
+  "baseBlock": "cards",
+  "description": "Trend cards with image, heading, and short description in a 3-column grid",
+  "createdFor": "https://wknd-trendsetters.site/fashion-trends-of-the-season",
+  "visualCharacteristics": {
+    "layout": "3-column grid",
+    "contentType": "image + heading + description per card",
+    "spacing": "generous gap, bordered cards"
+  },
+  "usedOn": [
+    "https://wknd-trendsetters.site/fashion-trends-of-the-season"
+  ]
+}
