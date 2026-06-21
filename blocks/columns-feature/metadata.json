@@ -1,0 +1,14 @@
+{
+  "variantName": "columns-feature",
+  "baseBlock": "columns",
+  "description": "Two-column layout with large image on left and article preview on right (heading, paragraph, CTA button)",
+  "createdFor": "https://wknd-trendsetters.site/fashion-trends-of-the-season",
+  "visualCharacteristics": {
+    "layout": "2-column, image left, text right",
+    "contentType": "article preview with heading, description, and call-to-action",
+    "spacing": "generous gap between columns"
+  },
+  "usedOn": [
+    "https://wknd-trendsetters.site/fashion-trends-of-the-season"
+  ]
+}

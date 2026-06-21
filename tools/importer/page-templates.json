@@ -1,0 +1,231 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://wknd-trendsetters.site"
+      ],
+      "description": "Homepage template for WKND Trendsetters site",
+      "blocks": [
+        {
+          "name": "hero-landing",
+          "instances": [
+            "header.section.secondary-section .grid-layout"
+          ]
+        },
+        {
+          "name": "columns-article",
+          "instances": [
+            "main > section:nth-of-type(1) .grid-layout"
+          ]
+        },
+        {
+          "name": "cards-gallery",
+          "instances": [
+            "main > section:nth-of-type(2) .grid-layout.desktop-4-column"
+          ]
+        },
+        {
+          "name": "tabs-testimonial",
+          "instances": [
+            "main > section:nth-of-type(3) .tabs-wrapper"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            "main > section:nth-of-type(4) .grid-layout.desktop-4-column"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            "main > section:nth-of-type(5) .faq-list"
+          ]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            "section.inverse-section .utility-position-relative"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": "header.section.secondary-section",
+          "style": null,
+          "blocks": [
+            "hero-landing"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Featured Article",
+          "selector": "main > section:nth-of-type(1)",
+          "style": null,
+          "blocks": [
+            "columns-article"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Image Gallery",
+          "selector": "main > section:nth-of-type(2)",
+          "style": "secondary",
+          "blocks": [
+            "cards-gallery"
+          ],
+          "defaultContent": [
+            "main > section:nth-of-type(2) .utility-text-align-center h2",
+            "main > section:nth-of-type(2) .utility-text-align-center p"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Testimonials",
+          "selector": "main > section:nth-of-type(3)",
+          "style": null,
+          "blocks": [
+            "tabs-testimonial"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Latest Articles",
+          "selector": "main > section:nth-of-type(4)",
+          "style": "secondary",
+          "blocks": [
+            "cards-article"
+          ],
+          "defaultContent": [
+            "main > section:nth-of-type(4) .utility-text-align-center h2",
+            "main > section:nth-of-type(4) .utility-text-align-center p"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "FAQ",
+          "selector": "main > section:nth-of-type(5)",
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            "main > section:nth-of-type(5) h2.h2-heading",
+            "main > section:nth-of-type(5) p.subheading"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "CTA Banner",
+          "selector": "section.inverse-section",
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        }
+      ]
+    },
+    {
+      "name": "fashion-trends",
+      "urls": [
+        "https://wknd-trendsetters.site/fashion-trends-of-the-season"
+      ],
+      "description": "Interior content page about fashion trends of the season",
+      "blocks": [
+        {
+          "name": "hero-landing",
+          "instances": [
+            "header.section.secondary-section .grid-layout"
+          ]
+        },
+        {
+          "name": "columns-feature",
+          "instances": [
+            "section#trends .grid-layout.tablet-1-column.grid-gap-lg"
+          ]
+        },
+        {
+          "name": "cards-trend",
+          "instances": [
+            "main > section:nth-of-type(2) .grid-layout.desktop-3-column"
+          ]
+        },
+        {
+          "name": "cards-gallery",
+          "instances": [
+            "main > section:nth-of-type(3) .grid-layout.desktop-3-column"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": "header.section.secondary-section",
+          "style": null,
+          "blocks": [
+            "hero-landing"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Trend Alert",
+          "selector": "section.section#trends",
+          "style": null,
+          "blocks": [
+            "columns-feature"
+          ],
+          "defaultContent": [
+            "section#trends .utility-text-align-center h2",
+            "section#trends .utility-text-align-center p"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Trends That Turn Heads",
+          "selector": "main > section:nth-of-type(2)",
+          "style": "secondary",
+          "blocks": [
+            "cards-trend"
+          ],
+          "defaultContent": [
+            "main > section:nth-of-type(2) .utility-text-align-center h2"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Style in Every Snapshot",
+          "selector": "main > section:nth-of-type(3)",
+          "style": null,
+          "blocks": [
+            "cards-gallery"
+          ],
+          "defaultContent": [
+            "main > section:nth-of-type(3) .utility-text-align-center h2",
+            "main > section:nth-of-type(3) .utility-text-align-center p"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "CTA Newsletter",
+          "selector": "section.section.accent-section",
+          "style": "accent",
+          "blocks": [],
+          "defaultContent": [
+            "section.accent-section .utility-text-align-center h2",
+            "section.accent-section .utility-text-align-center p",
+            "section.accent-section .button-group"
+          ]
+        }
+      ]
+    }
+  ]
+}
